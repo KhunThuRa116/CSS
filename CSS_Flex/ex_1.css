@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+
+}
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color:green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-pink{
+    background-color: pink;
+}
+.d-flex{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    flex-direction: row-reverse;/* default=row , coloum, coloum-reverse*/
+
+    /* Vertically Controll*/ 
+    /* align-items: center; */
+    align-items: flex-start; 
+    /* align-items: flex-end;  */
+
+    /* Horizontally Controll*/ 
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+}
+
+.cls-list-style{
+    list-style: none;
+    padding: 0px;
+}
+
+.d-flex>a{
+    color: white;
+    text-decoration: none;
+}

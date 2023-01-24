@@ -1,0 +1,19 @@
+.border-style {
+    border: 1px solid purple;
+}
+
+/* space between border & content */
+.padding-style{
+    padding: 20px;
+    margin: 40px;
+}
+
+/* space between each elements */
+.margin-style{
+    margin: 20px;
+}
+
+.size-style{
+    width: 200px;
+    height: 100px;
+}

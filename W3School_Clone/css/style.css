@@ -1,0 +1,182 @@
+/* Menu Bar Css */
+body{
+    margin: 0;
+}
+.img-size{
+    height: 3rem;
+    vertical-align: middle;
+}
+.link{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.left-layout{
+    float: left;
+}
+.right-layout{
+    float: right;
+}
+.clear-float{
+    clear: both;
+}
+
+/*login btn  */
+.link-login-btn{
+    background-color: #4CAF50;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    color: white;
+}
+/* .link-login-btn:hover{
+    background-color: rgb(4, 170, 109);
+} */
+
+/* website btn */
+.link-website-btn{
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+}
+/* .link-website-btn:hover{
+    background-color: rgb(4, 170, 109);
+} */
+
+/* get certifed btn */
+.link-certified-btn{
+    background-color:pink;
+    padding:0.51rem 1.5rem;
+    border-radius: 1rem;
+    color: white;
+}
+/* .link-certified-btn:hover{
+    background-color: rgb(4, 170, 109);
+} */
+
+/* pro btn */
+.link-pro-btn{
+    background-color:black;
+    padding: 0.5rem 0.9rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+}
+/* .link-pro-btn:hover{
+    background-color: rgb(4, 170, 109);
+} */
+
+/* new-btn */
+.new-btn{
+    font-size: 0.8rem;
+    background-color: white;
+    color: black;
+    padding:4px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* hover */
+/* .link-login-btn:hover,.link-website-btn:hover,.link-certified-btn:hover,.link-pro-btn:hover{
+    background-color: rgb(4, 170, 109);
+} */
+
+/* hover */
+.link-hover-green:hover{
+    background-color:rgb(4, 170, 109) ;
+}
+
+.font-stl{
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+}
+/* Menu Bar Css */
+
+/* navigation bar css */
+.nav-bar {
+    background-color: #282A35;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.link1 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+
+    padding: 1rem;
+}
+.link1:hover {
+    background-color: black;
+}
+.icon-style{
+    float: right;
+}
+.icon-home:hover {
+    background-color: black;
+}
+/* navigation bar css end */
+
+/* Wrapper Body start */
+.left-wrapper{
+    width: 20%;
+    height: calc(100vh - 3rem);
+    background-color: aqua;
+    float: left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color:#E7E9EB; 
+}
+
+.right-wrapper{
+    width: 80%;
+    height: calc(100vh - 3rem);
+    float: right;
+    overflow: scroll;
+}
+
+.right-wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.list-title{
+    font-size: 1.5rem;
+    padding:1rem ;
+}
+
+.data-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.data-list-item{
+    padding: 0.25rem 1rem;
+}
+
+.data-list-item:hover{
+    background-color: lightgray;
+}
+
+.box{
+    height: 150px;
+    margin: 0.5rem;
+    background-color: antiquewhite;
+}
+
+.data-link-active{
+    background-color: #4CAF50;
+}
+
+/* clear underline and connect list & link with width(100%) */
+.ft{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+/* clear underline and connect list & link with width(100%) */
+
+
+
+
+

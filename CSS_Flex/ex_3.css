@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+.d-flex{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.img-box>img{
+    height: 76px;
+    
+}
+.d-flex>a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .d-flex> *{
+    flex: 1;
+} */
+
+.d-flex> .img-box{
+    flex: 1;
+}
+
+.main{
+    display: flex;
+    height: 400px;
+    background-color: pink;
+}
+
+.left{
+    flex: 1;
+    background-color: red;
+}
+
+.center{
+    flex: 2;
+    background-color: green;
+}
+.right{
+    flex: 1;
+    background-color: blue;
+}

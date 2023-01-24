@@ -1,0 +1,27 @@
+.bg-test-box{
+    margin: auto;
+    width: 700px;
+    height: 600px;
+    border: 1px solid gray;
+    background-image:url(../img/op.jpg);
+    /* background-position: top right; */
+    /* background-position: bottom left; */
+    /* background-position: bottom right; */
+    /* background-position: center; */
+    /* background-position: -100%; */
+
+    background-repeat: no-repeat;
+     /*when background img is small  */
+
+    /* background-image-size */
+    background-size: 200px; 
+    /* this is width size and heigt is auto */
+
+    /* can see background image full */
+    background-size: contain;
+
+    /* background-size: cover; */
+
+    overflow: scroll;
+    background-attachment: local;
+}

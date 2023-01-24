@@ -1,0 +1,38 @@
+body{
+    font-size: 18px ;
+}
+
+.fs-rem{
+    /* 1rem = root default font size */
+    /* 1rem=16px */
+    font-size: 2rem;
+}
+
+.fs-em{
+    /* 1em = parent font size */
+    font-size: 2em;
+}
+
+.fs-percent{
+    /* 100% parent font size */
+    font-size: 200%;
+}
+
+.box{
+    background-color: yellow;
+
+    width: 600px;
+    height: 600px;
+}
+
+.responsive-box{
+    background-color: green;
+
+    width: 50vw;
+    height: 50vh;
+}
+
+.box > img{
+    width: 70vw; 
+    /* height: 50%; */
+}

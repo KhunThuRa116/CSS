@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-purple{
+    background-color: purple;
+}
+.bg-orange{
+    background-color: orange;
+}
+
+.container{
+    height: 70px;
+    display: flex;
+    background-color: pink;
+}
+
+.item-one{
+    flex: 3;
+}
+.item{
+    flex: 1;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.nav-bar-logo{
+    height: 50px;
+}
+.nav-text{
+    display: flex;
+    /* background-color: pink; */
+    flex: 1;
+    justify-content: center;
+}
+
+/*Testing flex*/
+/* .flex-1{
+    flex: 1;
+    background-color: red;
+}
+
+.flex-2{
+    flex: 1;
+    background-color: rebeccapurple;
+} */
+
+
+.box{
+    display: flex;
+    height: 400px;
+}
+
+.left{
+    background-color: yellow;
+    flex: 1;
+}
+.right{
+    flex: 1;
+    background-color:greenyellow;
+}
+.center{
+    flex: 2;
+    background-color: aqua;
+}
+
+
+
+
+
+

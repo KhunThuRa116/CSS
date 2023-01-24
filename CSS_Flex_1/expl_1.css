@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-purple{
+    background-color: purple;
+}
+.bg-orange{
+    background-color: orange;
+}
+
+.container{
+    display: flex;
+    background-color: pink;
+    height: 70px;
+
+    /*justify-content control Horizontally*/
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between;  */
+    /*javascript run final line if the properties are same*/
+    justify-content: center;
+
+    /*align-items control Vertically*/
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: baseline; same to flex-start */
+    /* align-items: center; */
+    align-items: stretch;
+    
+
+}

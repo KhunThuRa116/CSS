@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS vertical center</title>
+    <style>
+        .h-center{
+            text-align: center;
+        }
+        .v-align{
+            vertical-align: bottom;
+        }
+        .div-table{
+            display: table;
+            width: 100%;
+            height: 100px;
+            background-color: pink;
+        }
+        .div-table-cell{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .div-table-row{
+            display: table-row;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- table -->
+    <table border="1px" cellspacing="0">
+        <tr>
+            <td class="h-center v-align">HTML</td>
+            <td>
+                Hyper <br>
+                Text<br>
+                Markup <br>
+                Language <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="v-align">CSS</td>
+            <td>
+                Cascading <br>
+                Style<br>
+                Sheet <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>JAVASCRIPT</td>
+            <td>JAVASCRIPT</td>
+        </tr>
+
+    </table>
+
+        <div class="div-table">
+            <div class="div-table-cell">A</div>
+            <div class="div-table-cell">B</div>
+            <div class="div-table-cell">C</div>
+        </div>
+
+        <div class="div-table">
+            <div class="div-table-row">
+                <div class="div-table-cell">a</div>
+                <div class="div-table-cell">b</div>
+                <div class="div-table-cell">c</div>
+            </div>
+            <div class="div-table-row">
+                <div class="div-table-cell">d</div>
+                <div class="div-table-cell">e</div>
+                <div class="div-table-cell">f</div>
+            </div>
+            <div class="div-table-row">
+                <div class="div-table-cell">g</div>
+                <div class="div-table-cell">h</div>
+                <div class="div-table-cell">i</div>
+            </div>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+/* list-style-type */
+
+/* ul.a{
+    list-style-type: circle;
+}
+
+ul.b{
+    list-style-type: square;
+}
+
+ul.c{
+    list-style-type:upper-roman;
+}
+
+ul.d{
+    list-style-type: lower-latin;
+} */
+
+/* list-style-type */
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+/* list-style-image */
+
+/* ul {
+    list-style-image: url('../img/no.jpg');
+  } */
+
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  */
+
+  /* list-style-position */
+
+  /* ul.a{
+    list-style-position: inside;
+  }
+
+  ul.b{
+    list-style-position: outside;
+  } */
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+  

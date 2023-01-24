@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color:green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-purple{
+    background-color: purple;
+}
+.bg-cyan{
+    background-color: cyan;
+}
+
+.d-flex{
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.d-flex>div{
+    /* flex: 1; */ /*flex 1 => flex-shrik=1 & flex-grow=1 & flex basis=0*/
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 300px;
+
+    /* width: 300px; */
+}
